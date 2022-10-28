@@ -2,6 +2,19 @@
   width: 300px;
   height: 300px;
   background: black;
+  position: absolute;
+  top: 23%;
+}
+
+h1 { 
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 10px;
+  position: absolute;
+  top: 55%;
+  left: 48%;
 }
 
 .App { 
@@ -9,4 +22,19 @@
   align-items: center;
   justify-content: center;
   height: 100%;
+  background-color: black;
+}
+
+button{
+  font-size: 1.5rem;
+  padding: 0.5rem 1rem;
+  margin: 0.5rem;
+  border: 1px solid black;
+  border-radius: 5px;
+  background: white;
+  cursor: pointer;
+}
+
+.App button {
+  margin: 10px;
 }
